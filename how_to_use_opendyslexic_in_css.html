@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      @font-face {
+        font-family: "OpenDyslexic";
+        src: url("https://github.com/antijingoist/opendyslexic/raw/refs/heads/master/compiled/OpenDyslexic-Regular.otf");
+        font-style: normal;
+        font-weight: normal;
+      }
+
+      @font-face {
+        font-family: "OpenDyslexic";
+        src: url("https://github.com/antijingoist/opendyslexic/raw/refs/heads/master/compiled/OpenDyslexic-Italic.otf");
+        font-style: italic;
+        font-weight: normal;
+      }
+
+      @font-face {
+        font-family: "OpenDyslexic";
+        src: url("https://github.com/antijingoist/opendyslexic/raw/refs/heads/master/compiled/OpenDyslexic-Bold.otf");
+        font-weight: bold;
+        font-style: normal;
+      }
+
+      @font-face {
+        font-family: "OpenDyslexic";
+        src: url("https://github.com/antijingoist/opendyslexic/raw/refs/heads/master/compiled/OpenDyslexic-Bold-Italic.otf");
+        font-weight: bold;
+        font-style: italic;
+      }
+
+      :root {
+        --font-face: OpenDyslexic-Regular, Comic Sans, Trebuchet MS !important;
+        --background-color: black;
+        --text-color: white;
+        --font-size: 1.1em;
+      }
+
+      body {
+        font-family: var(--font);
+        font-size: var(--font-size);
+        color: var(--text-color);
+        background-color: var(--background-color);
+      }
+    </style>
+  </head>
+  <body>
+    Hello, world, including dyslexic people. Welcome.
+  </body>
+</html>
