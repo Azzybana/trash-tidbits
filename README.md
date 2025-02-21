@@ -7,6 +7,10 @@ Trash, since raccoons like trash.
 
 [Upcoming Python Deprecations](python_deprecations.md)
 
+## Rust Data
+
+[rustfmt config file, all defaults, grouped logically](https://github.com/Azzybana/trash-tidbits/blob/main/rustfmt_options_defaults.toml)
+
 ## Dyslexia
 
 This is for anyone who needs this, or wants to make your stuff easier for more people to read. 
